@@ -161,6 +161,21 @@ const expCards = [
   },
   {
     review:
+      "Yash successfully completed the 0-100 Full Stack Web Development Course by 100xDevs, showcasing strong dedication and hands-on skills across the full development stack. His commitment to mastering backend and frontend technologies reflects his potential as a well-rounded developer.",
+    imgPath: "/images/Full stack certificate.jpg",
+    logoPath: "/images/Full stack certificate.jpg",
+    title: "Certified Full Stack Developer – 100xDevs",
+    date: "Completed on: April 2025",
+    responsibilities: [
+      "Gained expertise in building full-stack applications using modern web technologies.",
+      "Completed real-world projects demonstrating practical implementation of web development concepts.",
+      "Earned certification under the mentorship of Harkirat Singh, validating strong technical foundations.",
+    ],
+  },
+  
+
+  {
+    review:
       "Yash built and deployed NewTube, a sleek and fast YouTube clone, showcasing his skills in frontend architecture and responsive UI design.",
     imgPath: "/images/Newtube.png",
     logoPath: "/images/Newtube.png",
@@ -170,69 +185,6 @@ const expCards = [
       "Created a fully responsive video browsing platform using React and RapidAPI.",
       "Implemented dynamic video fetching and search functionality.",
       "Focused on performance, design, and user experience.",
-    ],
-  },
-  {
-    review:
-      "Yash developed BookMyRoom, an Airbnb-like web app, demonstrating his understanding of UI/UX principles and frontend development.",
-    imgPath: "/images/airbnb.png",
-    logoPath: "/images/airbnb.png",
-    title: "Project: BookMyRoom (Airbnb Clone)",
-    date: "March 2025",
-    responsibilities: [
-      "Developed a modern room booking UI using React and TailwindCSS.",
-      "Integrated mock data and created responsive listing pages.",
-      "Emulated real-world booking interfaces with smooth transitions.",
-    ],
-  },
-  {
-    review:
-      "Yash completed an Advanced Software Engineering simulation on Forage, gaining hands-on skills in architecture, databases, and data handling.",
-    imgPath: "/images/walmart.jpg",
-    logoPath: "/images/walmart.jpg",
-    title: "Advanced Software Engineering (Forage Virtual Experience)",
-    date: "April 2025",
-    responsibilities: [
-      "Worked on data structures and backend architecture concepts.",
-      "Practiced relational database design and data munging techniques.",
-      "Simulated real-world software engineering problem-solving.",
-    ],
-  },
-  {
-    review:
-      "Yash completed a Quantitative Research simulation, gaining exposure to pricing models and risk analysis strategies.",
-    imgPath: "/images/jpmorgan.jpg",
-    logoPath: "/images/jpmorgan.jpg",
-    title: "Quantitative Research (Forage Virtual Experience)",
-    date: "April 2025",
-    responsibilities: [
-      "Analyzed pricing data and simulated commodity contracts.",
-      "Explored FICO score analysis and credit risk assessments.",
-      "Developed data-driven thinking for financial tech applications.",
-    ],
-  },
-  {
-    review: "Yash has shown exceptional skill in full stack development, successfully completing the One Roadmap Full Stack Certification. His commitment to continuous learning is truly commendable.",
-    imgPath: "/images/one-roadmap.jpeg", // custom-made logo
-    logoPath: "/images/one-roadmap.jpeg",
-    title: "Full Stack Developer - Certified",
-    date: "April 2025",
-    responsibilities: [
-      "Completed comprehensive training in MERN stack, REST APIs, and deployment.",
-      "Built and deployed projects as part of the certification curriculum.",
-      "Demonstrated strong problem-solving and UI/UX skills.",
-    ],
-  },
-  {
-    review: "Yash completed the AWS Academy course on Cloud Foundations. His understanding of cloud infrastructure and services gives him a strong edge in backend and deployment.",
-    imgPath: "/images/aws.jpg",
-    logoPath: "/images/aws.jpg",
-    title: "AWS Cloud Foundations - Certified",
-    date: "2025",
-    responsibilities: [
-      "Learned core AWS services, infrastructure, and cloud security.",
-      "Built understanding of EC2, S3, IAM, and Cloud Computing concepts.",
-      "Applied knowledge in deploying small-scale apps on cloud platforms.",
     ],
   },
 ];
@@ -274,27 +226,6 @@ const testimonials = [
     review:
       "Yash stands out for his professionalism, speed, and genuine passion for development. He delivers outstanding results and brings contagious energy to every project.",
     imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Yash has a great eye for intuitive design. He transformed our website into something fresh and modern while keeping the user experience smooth and accessible.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "An expert in scalable web development, Yash helped boost our e-commerce performance significantly. His work directly impacted our growth and success.",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Yash delivered beyond expectations, seamlessly handling both frontend and backend. He understands client needs and brings them to life with skill and precision.",
-    imgPath: "/images/client6.png",
   },
 ];
 

@@ -48,44 +48,38 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          {/*left*/}
-          <div ref={newtubeRef} className="first-project-wrapper">
+          {/* Left: Main Project */}
+          <div className="first-project-wrapper" ref={newtubeRef}>
             <div className="image-wrapper">
               <img src="/images/Newtube.png" alt="Newtube" />
             </div>
             <div className="text-content">
-              <h2>
-                NewTube – Redefining Video Streaming with a Sleek, Modern UI
-              </h2>
+              <h2>NewTube – Redefining Video Streaming with a Sleek, Modern UI</h2>
               <p className="text-white-50 md:text-xl">
                 NewTube is a cutting-edge YouTube clone built with React and TailwindCSS, delivering a fast and responsive video streaming experience. It features a clean, modern interface, dynamic video loading, and intuitive navigation for seamless user engagement.
               </p>
-             
               <Button text="Website" url="https://new-tube-sage.vercel.app/" />
-
-             
             </div>
           </div>
-          {/*right*/}
+          {/* Right: Project List */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={airbnbRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/hotel.jpg"
-                  alt="airbnb clone"
-                />
+                <img src="/images/hotel.jpg" alt="airbnb clone" />
               </div>
               <h2>StayEase – A Stylish and Fully Functional Airbnb Clone</h2>
               <Button text="Website" url="https://bookmyroom-one.vercel.app/" />
             </div>
-
             <div className="project" ref={rydeRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/taxi-app.png" alt="ryde" />
+                <img src="/images/bolt.jpg" alt="bolt" />
               </div>
-              <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde</h2>
-              <Button text="Website" url="https://yashpanwar.vercel.app/" />
+              <h2>
+                Bolt – AI-Powered Website Builder
+                <br />
+                A sleek clone of Bolt.new, this app lets users generate full websites using a powerful AI agent through a clean, intuitive interface. Called Ryde.
+              </h2>
+              <Button text="Website" url="https://bolt-20-nu.vercel.app/" />
             </div>
           </div>
         </div>
