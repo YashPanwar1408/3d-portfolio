@@ -177,8 +177,8 @@ const expCards = [
   {
     review:
       "Yash built and deployed NewTube, a sleek and fast YouTube clone, showcasing his skills in frontend architecture and responsive UI design.",
-    imgPath: "/images/Newtube.png",
-    logoPath: "/images/Newtube.png",
+    imgPath: "/images/newtube.png",
+    logoPath: "/images/newtube.png",
     title: "Project: NewTube (YouTube Clone)",
     date: "February 2025",
     responsibilities: [
